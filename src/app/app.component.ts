@@ -33,11 +33,9 @@ export class AppComponent implements OnInit {
         index !== -1 ? this.todoArrayFinish.splice(index, 1) : null;
       });
     }
-    console.log('todoArrayFinish', this.todoArrayFinish)
   }
 
   deleteTodo(todoDelet) {
-    console.log('todoDelet', todoDelet)
     this.todoArray.forEach(todoA => {
       const index: number = this.todoArray.indexOf(todoDelet);
       index !== -1 ? this.todoArray.splice(index, 1) : null;
