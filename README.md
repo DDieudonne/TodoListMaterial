@@ -1,4 +1,4 @@
-  <img src="https://github.com/DDieudonne/angular-material-mailer/blob/master/angular-mailer.png" width="100%">
+  <img src="https://github.com/DDieudonne/TodoListMaterial/blob/master/src/assets/snapchot.png" width="100%">
 
 
 # 1) NPM INSTALL
