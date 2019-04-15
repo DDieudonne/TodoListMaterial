@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,body{
+    margin: 0!important;
+    height: 100%!important;
+}
+body{
+    padding-bottom: 10% !important;
+}
+h1 {
+    font-family: 'Major Mono Display', monospace;
+    text-align: center;
+}
+
+div {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mat-checkbox,.mat-checkbox-inner-container{
+    height: 25px!important;
+    width: 25px!important;
+}
