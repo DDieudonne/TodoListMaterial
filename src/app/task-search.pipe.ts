@@ -5,7 +5,6 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class TaskSearchPipe implements PipeTransform {
   transform(items: any[], searchText: string): any[] {
-    console.log('items', items)
     if (!items) return [];
     if (!searchText) return items;
     searchText = searchText.toLowerCase();
